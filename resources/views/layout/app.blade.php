@@ -33,6 +33,24 @@
                     </form>
                 </div>
             </div>
+            <div class="row">
+                <div class="ten center aligned wide column">
+                    <div class="ui four column centered grid">
+                        <div class="center aligned column">
+                            <i class="book icon"></i>
+                            Книги
+                        </div>
+                        <div class="center aligned column">
+                            <i class="newspaper icon"></i>
+                            Газеты
+                        </div>
+                        <div class="center aligned column">
+                            <i class="envelope open icon"></i>
+                            Открытки
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="ui horizontal divider">
                 «Оставь надежду, всяк сюда входящий»
             </div>

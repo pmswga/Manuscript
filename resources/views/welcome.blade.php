@@ -44,9 +44,6 @@
                             </fieldset>
                         </div>
                     </div>
-                    <div class="ui vertical divider">
-                        <i class="book icon"></i>
-                    </div>
                 </div>
             </div>
         </div>

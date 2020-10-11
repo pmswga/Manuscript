@@ -1,9 +1,8 @@
 
 <div class="ui menu">
-    <a class="item" href="">Главная</a>
-    <a class="item" href="">Категории</a>
+    <a class="item" href="{{ route('welcome') }}">Главная</a>
     <div class="right menu">
-        <a class="item">О нас</a>
-        <a class="item">Контакты</a>
+        <a class="item" href="{{ route('about') }}">О нас</a>
+        <a class="item" href="{{ route('contacts') }}">Контакты</a>
     </div>
 </div>

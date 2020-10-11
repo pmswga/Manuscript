@@ -2,9 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', '\App\Http\Controllers\PagerController@welcome')->name('welcome');
 
 Route::get('/searches', function () {
 
@@ -34,10 +32,6 @@ Route::group(['prefix' => '/books'], function () {
 
 });
 
-Route::get('/contacts', function () {
-    return 'This is contacts page';
-});
+Route::get('/contacts', '\App\Http\Controllers\PagerController@contacts')->name('contacts');
 
-Route::get('/about', function () {
-    return 'This is about page';
-});
+Route::get('/about','\App\Http\Controllers\PagerController@about')->name('about');
