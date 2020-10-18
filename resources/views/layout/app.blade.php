@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Vetus Liber</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/semantic/semantic.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
         <script type="text/javascript" src="{{ asset("js/jquery.js")  }}"></script>
         <script type="text/javascript" src="{{ asset("js/semantic/semantic.js")  }}"></script>
     </head>
@@ -14,11 +15,12 @@
 
         <div class="ui stackable grid">
             <div class="row">
-                <div class="sixteen wide column">
+                <div class="two wide column"></div>
+                <div class="twelve wide column">
                     @include('components.menu')
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="search-section">
                 <div class="eight wide aligned centered column">
                     <h1 align="center">Vetus Liber</h1>
                     <form class="ui fluid form">
@@ -34,28 +36,46 @@
                 </div>
             </div>
             <div class="row">
+                <div class="two wide column"></div>
+                <div class="twelve wide column">
+                    <div class="ui horizontal divider">
+                        <i class="icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="ten center aligned wide column">
-                    <div class="ui four column centered grid">
+                    <div class="ui five column centered stackable grid">
                         <div class="center aligned column">
-                            <i class="book icon"></i>
+                            <i class="big book icon"></i>
                             Книги
                         </div>
                         <div class="center aligned column">
-                            <i class="newspaper icon"></i>
+                            <i class="big file icon"></i>
+                            Журналы
+                        </div>
+                        <div class="center aligned column">
+                            <i class="big newspaper icon"></i>
                             Газеты
                         </div>
                         <div class="center aligned column">
-                            <i class="envelope open icon"></i>
+                            <i class="big envelope open icon"></i>
                             Открытки
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="ui horizontal divider">
-                «Оставь надежду, всяк сюда входящий»
+            <div class="row">
+                <div class="two wide column"></div>
+                <div class="twelve wide column">
+                    <div class="ui horizontal divider">
+                        <i class="icon"></i>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="sixteen wide column">
+                <div class="two wide column"></div>
+                <div class="twelve wide column">
                     @yield('content')
                 </div>
             </div>
