@@ -5,30 +5,21 @@
     <div class="ui stackable grid">
         <div class="row">
             <div class="column">
-                <div class="ui segment">
-                    <div class="ui two column very relaxed stackable grid">
-                        <div class="column">
-                            <fieldset class="ui segment" style="text-align: center;">
-                                <legend><h3>Антикварные книги</h3></legend>
-                                <br>
-                                <a href="#" class="ui bottom attached label">Перейти в раздел</a>
-                            </fieldset>
-                        </div>
-                        <div class="column">
-                            <fieldset class="ui segment" style="text-align: center;">
-                                <legend><h3>Букинистические книги</h3></legend>
-                                <br>
-                                <a href="#" class="ui bottom attached label">Перейти в раздел</a>
-                            </fieldset>
-                        </div>
-                    </div>
+                <div class="ui horizontal divider">
+                    Книги
                 </div>
             </div>
         </div>
+        @include('components.welcome_page.books_section')
         <div class="row">
-            <div class="ui twelve wide centered aligned column">
+            <div class="column">
+                <div class="ui horizontal divider">
+                    Журналы
+                </div>
             </div>
         </div>
+        @include('components.welcome_page.journals_section')
+
     </div>
 
 @endsection

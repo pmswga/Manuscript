@@ -21,7 +21,14 @@
                 </div>
             </div>
             <div class="row" id="search-section">
-                <div class="eight wide aligned centered column">
+                <div class="two wide column"></div>
+                <div class="two wide column computer only">
+                    <figure class="ui segment">
+                        <img id="dante-image" class="ui fluid image" src="{{ asset('img/Dante.png') }}">
+                        <figcaption>Dante</figcaption>
+                    </figure>
+                </div>
+                <div class="ten wide column">
                     <h1 align="center">Vetus Liber</h1>
                     <form class="ui fluid form">
                         <div class="field">
@@ -33,25 +40,16 @@
                             </div>
                         </div>
                     </form>
-                </div>
-            </div>
-            <div class="row">
-                <div class="two wide column"></div>
-                <div class="twelve wide column">
                     <div class="ui horizontal divider">
                         <i class="icon"></i>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="ten center aligned wide column">
                     <div class="ui five column centered stackable grid">
                         <div class="center aligned column">
                             <i class="big book icon"></i>
                             Книги
                         </div>
                         <div class="center aligned column">
-                            <i class="big file icon"></i>
+                            <i class="big newspaper outline icon"></i>
                             Журналы
                         </div>
                         <div class="center aligned column">
@@ -63,11 +61,6 @@
                             Открытки
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="two wide column"></div>
-                <div class="twelve wide column">
                     <div class="ui horizontal divider">
                         <i class="icon"></i>
                     </div>
