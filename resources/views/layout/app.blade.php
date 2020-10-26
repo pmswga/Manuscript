@@ -22,13 +22,12 @@
             </div>
             <div class="row" id="search-section">
                 <div class="two wide column"></div>
-                <div class="two wide column computer only">
-                    <figure class="ui segment">
-                        <img id="dante-image" class="ui fluid image" src="{{ asset('img/Dante.png') }}">
-                        <figcaption>Dante</figcaption>
+                <div class="three wide column computer only">
+                    <figure class="ui segment" style="padding: 5px;">
+                        <img id="dante-image" class="ui fluid image" src="{{ asset('img/Dante-black.png') }}">
                     </figure>
                 </div>
-                <div class="ten wide column">
+                <div class="nine wide column">
                     <h1 align="center">Vetus Liber</h1>
                     <form class="ui fluid form">
                         <div class="field">
@@ -45,19 +44,19 @@
                     </div>
                     <div class="ui five column centered stackable grid">
                         <div class="center aligned column">
-                            <i class="big book icon"></i>
+                            <i class="huge book icon"></i>
                             Книги
                         </div>
                         <div class="center aligned column">
-                            <i class="big newspaper outline icon"></i>
+                            <i class="huge newspaper outline icon"></i>
                             Журналы
                         </div>
                         <div class="center aligned column">
-                            <i class="big newspaper icon"></i>
+                            <i class="huge newspaper icon"></i>
                             Газеты
                         </div>
                         <div class="center aligned column">
-                            <i class="big envelope open icon"></i>
+                            <i class="huge envelope open icon"></i>
                             Открытки
                         </div>
                     </div>

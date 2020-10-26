@@ -42,46 +42,44 @@
         </div>
     </div>
     <div class="twelve wide column">
-        <div class="ui segment">
-            <div class="ui three column grid">
-                <div class="column">
-                    <div class="ui fluid card">
-                        <div style="text-align: center; padding: 15px 15px;">
-                            <i class="massive outline newspaper icon"></i>
-                        </div>
-                        <div class="content">
-                            <a class="header">Daniel Louise</a>
-                        </div>
+        <div class="ui three column grid">
+            <div class="column">
+                <div class="ui fluid card">
+                    <div style="text-align: center; padding: 15px 15px;">
+                        <i class="massive outline newspaper icon"></i>
+                    </div>
+                    <div class="content">
+                        <a class="header">Daniel Louise</a>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="ui fluid card">
-                        <div style="text-align: center; padding: 15px 15px;">
-                            <i class="massive outline newspaper icon"></i>
-                        </div>
-                        <div class="content">
-                            <a class="header">Daniel Louise</a>
-                        </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <div style="text-align: center; padding: 15px 15px;">
+                        <i class="massive outline newspaper icon"></i>
+                    </div>
+                    <div class="content">
+                        <a class="header">Daniel Louise</a>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="ui fluid card">
-                        <div style="text-align: center; padding: 15px 15px;">
-                            <i class="massive outline newspaper icon"></i>
-                        </div>
-                        <div class="content">
-                            <a class="header">Daniel Louise</a>
-                        </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <div style="text-align: center; padding: 15px 15px;">
+                        <i class="massive outline newspaper icon"></i>
+                    </div>
+                    <div class="content">
+                        <a class="header">Daniel Louise</a>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="ui fluid card">
-                        <div style="text-align: center; padding: 15px 15px;">
-                            <i class="massive outline newspaper icon"></i>
-                        </div>
-                        <div class="content">
-                            <a class="header">Daniel Louise</a>
-                        </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <div style="text-align: center; padding: 15px 15px;">
+                        <i class="massive outline newspaper icon"></i>
+                    </div>
+                    <div class="content">
+                        <a class="header">Daniel Louise</a>
                     </div>
                 </div>
             </div>
